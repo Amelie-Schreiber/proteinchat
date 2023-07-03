@@ -18,5 +18,5 @@ Each entry has the following format:
 
 ### Encode the Protein
 
-We use GVP-GNN and GVP-Transformer from [ESM-IF1](https://github.com/facebookresearch/esm/tree/main/examples/inverse_folding) to encode chain A of each protein to PyTorch tensors. The folder `data/esm_subset/pt` lists the `pt` files for the proteins we sampled. The full version after compression (83G) is on [Google Drive](https://drive.google.com/file/d/1AeJW5BY5C-d8mKJjAULTax6WA4hzWS0N/view?usp=share_link).
+We use GVP-GNN and GVP-Transformer from [ESM-IF1](https://github.com/facebookresearch/esm/tree/main/examples/inverse_folding) to encode chain A of each protein to PyTorch tensors. The folder `data/esm_subset/pt` lists the `pt` files for the proteins we sampled. The full version after compression (83G) is on [Google Drive](https://drive.google.com/file/d/1AeJW5BY5C-d8mKJjAULTax6WA4hzWS0N/view?usp=share_link) and also [Baidu Netdisk](https://pan.baidu.com/s/1YLzN--926OQXpwms2AdfMA) with code `sfmx`. If using the data on Baidu Netdisk, you can use [bypy](https://github.com/houtianze/bypy) as a command line tool to download the data, and then go to the `pt` folder and use [extract.sh](extract.sh) to untar the files.
  
